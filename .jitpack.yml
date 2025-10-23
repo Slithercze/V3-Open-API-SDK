@@ -1,5 +1,5 @@
 jdk:
-  - openjdk17
+  - openjdk8
 
 install:
   - mvn -q -DskipTests -Dmaven.test.skip=true -f okex-java-sdk-api/pom.xml package
