@@ -1,0 +1,5 @@
+jdk:
+  - openjdk17
+
+install:
+  - mvn -q -DskipTests -Dmaven.test.skip=true -pl okex-java-sdk-api -am package
