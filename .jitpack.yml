@@ -2,4 +2,4 @@ jdk:
   - openjdk17
 
 install:
-  - mvn -q -DskipTests -Dmaven.test.skip=true -pl okex-java-sdk-api -am package
+  - mvn -q -DskipTests -Dmaven.test.skip=true -f okex-java-sdk-api/pom.xml package
